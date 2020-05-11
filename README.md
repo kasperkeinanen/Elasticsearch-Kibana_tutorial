@@ -52,7 +52,7 @@ source: [https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data/
 
 ### Import the example dashboard
 
-To get a better understanding of the data it often helps to visualize it. This can be done in Kibana with the Visualize tool where you can easily create different graphs and visualizations with the data that you indexed int ES. These visualizations can then be grouped into dashboards. Import the example dashboard by going to **Management -> Saved Objects -> Import -> And choose the export.ndjson from this repo**.
+To get a better understanding of the data it often helps to visualize it. This can be done in Kibana with the Visualize tool where you can easily create different graphs and visualizations of the data that you indexed into ES. These visualizations can then be grouped into dashboards. Import the example dashboard by going to **Management -> Saved Objects -> Import -> And choose the export.ndjson from this repo**.
 
 Go to The Dashboard tool on the left and you should see the example dashboard. If the visualizations don't look right, check if the date range is correct (use 31.12.2019 -> now)
 
