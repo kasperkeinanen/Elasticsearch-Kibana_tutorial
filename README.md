@@ -50,6 +50,12 @@ In this tutorial we will import the data into Elasticsearch the easiest way. By 
 
 source: [https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data/resource/260bbbde-2316-40eb-aec3-7cd7bfc2f590](https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data/resource/260bbbde-2316-40eb-aec3-7cd7bfc2f590)
 
+### Import the example dashboard
+
+To get a better understanding of the data it often helps to visualize it. This can be done in Kibana with the Visualize tool where you can easily create different graphs and visualizations with the data that you indexed int ES. These visualizations can then be grouped into dashboards. Import the example dashboard by going to **Management -> Saved Objects -> Import -> And choose the export.ndjson from this repo**.
+
+Go to The Dashboard tool on the left and you should see the example dashboard. If the visualizations don't look right, check if the date range is correct (use 31.12.2019 -> now)
+
 ### Queries
 
 Here are som example queries that you can test on the imported data. The simplest way to familiarize with the query DSL (Domain Specific Language) syntax is to open up the **Dev Tools** in Kibana (The wrench icon on the left side).
