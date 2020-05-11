@@ -1,5 +1,9 @@
 # Elasticsearch Tutorial
 
+Example of a dashboard created with this tutorial (11.5.2020):
+
+![Dashboard created in kibana with covid-19 data](./Data/dashboard.png "Dashboard created in kibana with covid-19 dat")
+
 ## Requirements
 
 * Docker
